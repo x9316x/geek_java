@@ -49,8 +49,8 @@ public class Task2 {
         myQueue.enqueue(1);
         myQueue.enqueue(2);
         myQueue.enqueue(3);
-        System.out.println(myQueue.first());  // выводит 1
-        System.out.println(myQueue.dequeue());  // выводит 1
-        System.out.println(myQueue.first());  // выводит 2
+        System.out.println(myQueue.first());
+        System.out.println(myQueue.dequeue());
+        System.out.println(myQueue.first());
     }
 }
